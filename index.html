@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="./styles/styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="wrapper-logo">
+                <img src="./assets/img/tomato-timer.png" alt="logo" />
+                <p>Timer</p>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <audio id="myAudio">
+            <source src="./assets/audio/audio-clock.mp3" type="audio/mpeg">
+          </audio>
+        <div class="container">
+            <div class="wrapper-tabs">
+                <button data-time="1500" class="tab active">
+                    Pomodoro
+                </button>
+                <button data-time="300" class="tab">
+                    Short Break
+                </button>
+                <button data-time="600" class="tab">
+                    Long Break
+                </button>
+            </div>
+            <div class="wrapper-time">
+                <p class="time" id="time"></p>
+            </div>
+            <div class="wrapper-button">
+                <button  class="button start" id="btn-start">
+                    Start
+                </button>
+                <button class="button stop" id="btn-stop">
+                    Stop
+                </button>
+                <button class="button reset" id="btn-reset">
+                    Reset
+                </button>
+            </div>
+        </div>
+        
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>

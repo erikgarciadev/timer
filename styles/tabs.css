@@ -1,0 +1,36 @@
+.wrapper-tabs {
+    display: flex;
+    background-color: aqua;
+}
+
+.tab {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #2BA6CB;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 16px;
+    width: 33.3%;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.tab:hover {
+    background-color: #2284a1;
+}
+
+.active {
+    background-color: #2284a1;
+}
+
+@media screen and (min-width:1024px)  {
+    .tab {
+        font-size: 24px;
+    }
+}

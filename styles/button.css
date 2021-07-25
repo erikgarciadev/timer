@@ -1,0 +1,38 @@
+.button {
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    height: 50px;
+}
+
+.start {
+    background-color: #5DA423 ;
+}
+
+.stop {
+    background-color: #C60F13;
+}
+
+.reset {
+    color: #000;
+}
+
+.button:hover {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
+}
+
+.button:active {
+    transform: scale(0.9);
+}
+
+@media screen and (min-width:1024px)  {
+    .button {
+        font-size: 18px;
+        width: 150px;
+        height: 50px;
+    }
+}

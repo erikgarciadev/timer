@@ -1,0 +1,34 @@
+@import url('./header.css');
+@import url('./button.css');
+@import url('./wrapperButton.css');
+@import url('./tabs.css');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding: 2.5em;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.time {
+    font-size: 72px;
+    text-align: center;
+}
+
+.wrapper-time {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width:1024px)  {
+    .wrapper-time {
+        margin-top: 127px;
+        margin-bottom: 127px;
+    }
+}

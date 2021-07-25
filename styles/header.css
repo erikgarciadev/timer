@@ -1,0 +1,33 @@
+header {
+    height: 80px;
+    background-color: #E9E9E9;
+    width: 100%;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 2em;
+}
+
+.wrapper-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.wrapper-logo p {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+@media screen and (min-width:1024px)  {
+
+    .wrapper-logo p {
+        font-size: 48px;
+        font-weight: bold;
+    }
+}
