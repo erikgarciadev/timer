@@ -61,7 +61,7 @@ function playAudio(){
 }
 
 function startTime(){
-    timeLeft === 0 ? timer(time) : timer(timeLeft)
+    timeLeft <= 0 ? timer(time) : timer(timeLeft)
     btnStart.removeEventListener('click', startTime)
 }
 
