@@ -45,6 +45,7 @@ function displayTimeLeft(seconds) {
 function startTextTimer(){
     const seconds = parseInt(this.dataset.time)
     time = seconds
+    timeLeft = seconds
     buttons.forEach(button => button.classList.remove("active"))
     this.classList.add("active")
     displayTimeLeft(seconds)
